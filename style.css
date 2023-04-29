@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,300&display=swap');
+
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+text-decoration: none;
+list-style: none; 
+font-family: 'Roboto', sans-serif;
+}
+
+.canto{
+    font-size: 28px;
+    margin-left: 4rem;
+    color: rgb(245, 243, 241);
+}
+
+.container {
+    min-height: 100vh;
+    background: linear-gradient(90deg, #eeaeca 0%, #94bbe9 100%);
+}
+.nome{
+}
+.links-header{
+    justify-content: flex-end;
+    display: flex;
+    gap: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 3rem;
+}
+
+.sobre-mim{
+    display: flex;
+    padding-top: 5rem;
+    text-align: start;
+    padding-left: 30rem;
+    padding-right: 1rem;
+    gap: 2rem;
+    justify-content: center;
+    
+}
+
+.portifolio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    padding: 2rem;
+    background: linear-gradient(90deg, #eeaeca 0%, #94bbe9 100%);
+    box-shadow: 0 1px 2px rgba(1,1,1,1.2);
+    border-radius: 5px;
+  }
+
+#contato{
+    color: black
+}
+
+#portifolio{
+    color:black
+}
+
+#sobremim {
+    color:black
+}
+
+img{
+    border-radius: 500px;
+    border: double 0px rgb(247, 166, 240);
+}
+
+.contato-final{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+}
+.linkedin{
+    margin-top: 2rem;
+}
